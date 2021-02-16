@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="jedis-3.5.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../JavaLibs/jedis-3.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaLibs/neo4j-java-driver-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaLibs/postgresql-42.2.18.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/apache-cassandra-3.11.9/javadoc" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/apache-cassandra-3.11.9/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/build/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/demo/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/generated/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/legacy/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/core-api/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/core-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/protocol-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/user-api/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/user-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/build/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/demo/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/generated/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/legacy/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/core-api/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/core-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/protocol-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/user-api/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/main/user-impl/java" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaLibs/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../JavaLibs" recursive="false" />
+  </library>
+</component>

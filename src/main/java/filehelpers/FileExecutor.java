@@ -1,4 +1,4 @@
-package fileHelpers;
+package filehelpers;
 
 import model.Person;
 

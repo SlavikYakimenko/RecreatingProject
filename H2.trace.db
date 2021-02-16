@@ -1,0 +1,8 @@
+2021-02-16 11:58:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "PERSONS" не найдена
+Table "PERSONS" not found; SQL statement:
+INSERT INTO persons (id,fname,lname,age,city) VALUES (?,?,?,?,?) [42102-197]
+2021-02-16 12:02:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "PERSONS" не найдена
+Table "PERSONS" not found; SQL statement:
+INSERT INTO persons (id,fname,lname,age,city) VALUES (?,?,?,?,?) [42102-197]

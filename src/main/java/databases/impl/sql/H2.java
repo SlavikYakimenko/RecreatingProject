@@ -27,5 +27,6 @@ public class H2 extends BasicSQLExecutor {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return connection;    }
+        return connection;
+    }
 }

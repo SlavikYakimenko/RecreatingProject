@@ -22,14 +22,15 @@ public class Neo4J implements IDataBaseModel {
     public void writeToDB(Person person) {
         try (Session session = getDriver().session()) {
             Map<String, Object> params = new HashMap<>();
-            params.put("Id", person.getId());
-            params.put("Fname", person.getFname());
-            params.put("Lname", person.getLname());
-            params.put("Age", person.getAge());
-            params.put("City", person.getCity());
+            params.put("id", person.getId());
+            params.put("fname", person.getFname());
+            params.put("lname", person.getLname());
+            params.put("age", person.getAge());
+            params.put("city", person.getCity());
 
-            session.run("CREATE (n:persons{id:$Id,fname:$Fname,lname:$Lname,age:$Age,city:$City})", params);
+            session.run("CREATE (n:persons{id:$id,fname:$fname,lname:$lname,age:$age,city:$city})", params);
         }
+        driver.close();
     }
 
 
@@ -49,6 +50,7 @@ public class Neo4J implements IDataBaseModel {
                 personList.add(person1);
             }
         }
+        driver.close();
         return personList;
     }
 
@@ -56,23 +58,25 @@ public class Neo4J implements IDataBaseModel {
     public void updateInDB(int id, String[] newValue) {
         try (Session session = getDriver().session()) {
             Map<String, Object> params = new HashMap<>();
-            params.put("Id", Integer.parseInt(newValue[0]));
-            params.put("Fname", newValue[1]);
-            params.put("Lname", newValue[2]);
-            params.put("Age", Integer.parseInt(newValue[3]));
-            params.put("City", newValue[4]);
+            params.put("id", Integer.parseInt(newValue[0]));
+            params.put("fname", newValue[1]);
+            params.put("lname", newValue[2]);
+            params.put("age", Integer.parseInt(newValue[3]));
+            params.put("city", newValue[4]);
 
-            session.run("MATCH (n{fname:$Fname}) SET n.id=$Id,n.fname=$Fname, n.lname=$Lname, n.age=$Age, n.city=$City,", params);
+            session.run("MATCH (n{fname:$fname}) SET n.id=$id,n.fname=$fname, n.lname=$lname, n.age=$age, n.city=$city,", params);
         }
+        driver.close();
     }
 
     @Override
     public void deleteFromDB(int id) {
         try (Session session = getDriver().session()) {
             Map<String, Object> params = new HashMap<>();
-            params.put("Id", id);
+            params.put("id:", id);
             session.run("MATCH (n{id:$id}) DETACH DELETE n");
         }
+        driver.close();
 
     }
 }

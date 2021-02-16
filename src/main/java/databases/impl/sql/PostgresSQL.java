@@ -17,7 +17,6 @@ public class PostgresSQL extends BasicSQLExecutor {
             String name = "root";
             String pass = "root";
             connection = DriverManager.getConnection(url, name, pass);
-
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
